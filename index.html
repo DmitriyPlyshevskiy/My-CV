@@ -9,50 +9,136 @@
     <title>Dmitriy Plyshevskiy</title>
 </head>
 <body>
-    <header>
-        <div class="header_nav">
-            <ul class="nav-items">
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#eng">English</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+    <div class="content">
+        <nav>
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#languages"></a>Languages</li>
+                <li><a href="#skills"></a>Skills</li>
+                <li><a href="#hobbies"></a>Hobbies</li>
+                <li><a href="#about me"></a>About me</li>
+                <li><a href="#education"></a>Education</li>
+                <li><a href="#work"></a>Work exp.</li>
+                <li><a href="#code"></a>Code ex.</li>
             </ul>
-        </div>
-    </header>
-    <main>
-        <img src="./images/photo_for_cv653x653.jpg" alt="Photo of my CV" width="300">
-    <h1>Dmitriy Plyshevskiy</h1>
-    <h2>Frontend developer</h2>
-    <hr>
-    <h3 id="about-me"><strong>About me:</strong></h3>
-    <p>Now programming is <strong>my hobby</strong>.</p>
-    <p>There is nothing better than <strong>doing what you really like</strong> and still makes money. <br>Therefore, I want to turn my hobby into a profession, because <strong>programming is cool</strong>!</p>
-    <p>I like to learn new things and make friends.</p>
-    <hr>
-    <h3 id="education">Education:</h3>
-    <ul>
-        <li>Belarusian National Technical University, Civil Engineer.</li>
-    </ul>
-    <h3 id="eng">English:</h3>
-    <ul>
-        <li>My A1 level of English and my goal is to improve it constantly.</li>
-    </ul>
-    <h3 id="skills">Skills:</h3>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li>
-        <li>GIT</li>
-    </ul>
-    <h3 id="contacts">Contacts:</h3>
-    <ul>
-        <li>Telegram: @DmitriyPlyshevskiy</li>
-        <li>Email: proffront@gmail.com</li>
-    </ul>    
-    </main>
-    
-    <div class="contact-with-me">
+        </nav>
+        <aside>
+            <div class="aside-wrapper">
+                <section class="profile-photo">
+                    <img src="./images/photo_for_cv653x653.jpg" alt="Photo of my CV" width="300">
+                </section>
+                <section class="contact">
+                    <div class="contact-title">
+                        <h3>CONTACT</h3>
+                    </div>
+                    <ul class="contact-list">
+                        <li class="telegram">@DmitriyPlyshevskiy</li>
+                        <li class="discord">DmitriyPlyshevskiy#0097</li>
+                        <li class="phone">+375291883238</li>
+                        <li class="email">proffront@gmail.com</li>
+                    </ul>
+                </section>
+                <section class="languages">
+                    <div class="languages-title">
+                        <h3>LANGUAGES</h3>
+                    </div>
+                    <div class="lang-level">
+                        <p class="eng-lang">ENGLISH</p>
+                        <div class="eng-level"></div>
+                    </div>
+                    <div class="lang-level">
+                        <p class="bel-lang">BELARUSIAN</p>
+                        <div class="bel-level"></div>
+                    </div>
+                    <div class="lang-level">
+                        <p class="rus-lang">RUSSIAN</p>
+                        <div class="rus-level"></div>
+                    </div>                    
+                </section>
+                <section class="skills">
+                    <div class="skills-title">
+                        <h3>SKILLS</h3>
+                    </div>
+                    <div class="skills-level">
+                        <p class="skill-name">HTML</p>
+                        <div class="html-level"></div>
+                    </div>
+                    <div class="skills-level">
+                        <p class="skill-name">CSS</p>
+                        <div class="css-level"></div>
+                    </div>
+                    <div class="skills-level">
+                        <p class="skill-name">Java Script</p>
+                        <div class="js-level"></div>
+                    </div>
+                    <div class="skills-level">
+                        <p class="skill-name">GIT</p>
+                        <div class="git-level"></div>
+                    </div>
+                </section>
+                <section class="hobbies">
+                    <div class="hobbies-title">
+                        <h3>HOBBIES</h3>
+                    </div>
+                    <div class="hobbies-list">
+                        <div class="cinema"></div>
+                        <div class="music"></div>
+                        <div class="sport"></div>
+                        <div class="nature"></div>
+                    </div>
+                </section>
+            </div>
+        </aside>
+
+        <article>
+            <section class="name">
+                <h1>Dmitriy Plyshevskiy</h1>
+                <p>Frontend developer</p>
+            </section>
+            <section class="about-me">
+                <h3>ABOUT ME</h3>
+                <p>Now programming is <strong>my hobby</strong>.</p>
+                <p>There is nothing better than <strong>doing what you really like</strong> and still makes money. <br>Therefore, I want to turn my hobby into a profession, because <strong>programming is cool</strong>!</p>
+                <p>I like to learn new things and make friends.</p>
+            </section>
+            <section class="education">
+                <h3>EDUCATION</h3>
+                <div class="education-items">
+                    <div class="education-item">
+                        <span class="education-year">2006 - 2012</span>
+                        <span class="education-place">Belarusian National Technical University</span>
+                        <p class="education-description">Civil Engineer. Specialty: Heat and gas supply, ventilation and protection of the air basin.</p>
+                    </div>
+                    <div class="education-item">
+                        <span class="education-year">Dec 2021 - Mar 2022</span>
+                        <span class="education-place">The Rolling Scopes School</span>
+                        <p class="education-description"><a href="https://rs.school/js-stage0/">JavaScript/Front-end. Stage 0</a></p>
+                    </div>
+                </div>                
+            </section>
+            <section class="experience">
+                <h3>EXPERIENCE</h3>
+                <div class="experience-items">
+                    <div class="experience-item">
+                        <p>Without experience</p>
+                    </div>
+                </div>
+            </section>
+            <section class="code-example">
+                <h3>CODE EXAMPLE</h3>
+                <div class="code">                    
+                    <code>                            
+                        function multiply(a, b){
+                        return (a * b)
+                        }                    
+                    </code>                    
+                </div>
+            </section>
+        </article>
+    </div>
+
+        
+    <!-- <div class="contact-with-me">
         <h3>Contact with me</h3>
         <form action="">
             <div class="name">
@@ -74,8 +160,6 @@
                 <button type="submit">Submit</button>
             </div>
         </form>
-    </div>
-    
-
+    </div> -->
 </body>
 </html>
