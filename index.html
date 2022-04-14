@@ -6,25 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="dmitriy, plyshevskiy, cv">
     <meta name="description" content="Hello! My name is Dmitriy. I will be glad if you get acquainted with my CV and if you have any questions, be sure to contact me, I will be happy to answer them.">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <title>Dmitriy Plyshevskiy</title>
 </head>
 <body>
     <div class="content">        
-        <aside>
+        <aside class="aside">
             <div class="aside-wrapper">
                 <section class="profile-photo">
-                    <img src="./images/photo_for_cv653x653.jpg" alt="Photo of my CV" width="300">
+                    <img class="photo" src="./assets/images/photo_for_cv653x653.jpg" alt="Photo of my CV">
                 </section>
                 <section id="contact" class="contact">
                     <div class="contact-title">
-                        <h3>CONTACT</h3>
+                        <div class="wrapper">
+                            <h3>CONTACT</h3>
+                        </div>                        
                     </div>
-                    <ul class="contact-list">
-                        <li class="telegram">@DmitriyPlyshevskiy</li>
-                        <li class="discord">DmitriyPlyshevskiy#0097</li>
-                        <li class="phone">+375291883238</li>
-                        <li class="email">proffront@gmail.com</li>
-                    </ul>
+                    <div class="wrapper">
+                        <ul class="contact-list">
+                            <li class="telegram">@DmitriyPlyshevskiy</li>
+                            <li class="discord">DmitriyPlyshevskiy#0097</li>
+                            <li class="phone">+375291883238</li>
+                            <li class="email">proffront@gmail.com</li>
+                        </ul>
+                    </div>
+                    
                 </section>
                 <section id="languages" class="languages">
                     <div class="languages-title">
@@ -78,7 +87,7 @@
             </div>
         </aside>
 
-        <article>
+        <article class="article">
             <div class="menu-title">MENU</div>
             <nav class="menu">
                 <ul class="menu-items">
