@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    list-style: none;
+    margin: 5px 0;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.aside {
+    width: 30%;
+    background-color: #2f3a40;
+    color: #fff;
+}
+
+.aside-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-photo {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.photo {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.contact {
+    padding: 20px 0;
+}
+
+.contact-title {    
+    background-color: rgba(255, 119, 120, 0.8);
+}
+
+.telegram {
+    height: 30px;
+    background: url(./assets/svg/telegram-white.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding-left: 40px;
+    padding-top: 5px
+}
+
+.discord {
+    height: 30px;
+    background: url(./assets/svg/discord-white.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.phone {
+    height: 30px;
+    background: url(./assets/svg/phone-white.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.email {
+    height: 30px;
+    background: url(./assets/svg/email-white.svg);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+.article {
+    background-color: aquamarine;
+    width: 70%;
+}
