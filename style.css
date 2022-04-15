@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +10,7 @@
 h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.4;
 }
 
@@ -17,6 +20,12 @@ li {
     font-weight: 100;
     list-style: none;
     margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
 }
 
 
@@ -235,13 +244,8 @@ li {
 }
 
 /* HOBBIES SECTION */
-.hobbies {    
-    /* padding-bottom: 10px; */
-}
-
 .hobbies-title {    
-    background-color: rgba(245, 149, 28, 0.8);
-    
+    background-color: rgba(245, 149, 28, 0.8);    
 }
 
 .hobbies-list {
@@ -256,15 +260,106 @@ li {
     fill: #fff;
 }
 
-
-
-
-
-
-
-
-
+/* ARTICLE */
 .article {
-    background-color: aquamarine;
+    background-color: #eee8de;
     width: 70%;
 }
+
+.article-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* MENU */
+.menu {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.menu-items a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+
+/* NAME SECTION */
+.name {
+    padding-top: 40px;
+    padding-bottom: 115px;
+}
+
+.name h1 {
+    font-size: 47px;
+    padding-bottom: 10px;
+}
+
+.name p {
+    font-size: 30px;
+}
+
+/* ABOUT-ME SECTION */
+.about-me {
+    padding-bottom: 40px;
+}
+
+
+
+.about-me p {
+    padding-bottom: 5px;
+}
+
+/* EDUCATION SECTION */
+.education {
+    padding-bottom: 40px;
+}
+
+.education-item {
+    padding-bottom: 20px;
+}
+
+.education-year {
+    font-weight: 700;
+    display: inline-block;
+    width: 150px;
+}
+
+.education-place {
+    color: red;
+}
+
+.education-description {
+    padding-top: 5px;
+}
+
+.education-description a {
+    color: #000;
+}
+
+.certificate {
+    display: inline-block;
+    color: #0969da;
+}
+
+/* EXPERIENCE SECTION */
+.experience {
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
