@@ -78,6 +78,8 @@ a:hover{
 
 .telegram {
     height: 30px;
+    display: inline-block;
+    align-items: center;
     background: url(./assets/svg/telegram-white.svg);
     background-repeat: no-repeat;
     background-size: 30px;
@@ -109,6 +111,19 @@ a:hover{
     background-repeat: no-repeat;
     background-size: 28px;
     padding-left: 40px;
+}
+
+.github {
+    height: 30px;
+    background: url(./assets/svg/github-white.svg);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.github a {
+    color: #fff;
 }
 
 /* LANGUAGES SECTION*/
@@ -263,11 +278,18 @@ a:hover{
     width: 30px;
     height: 30px;
     fill: #fff;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    fill: #3f85d4;
 }
 
 /* ARTICLE */
 .article {
-    background-color: #eee8de;
+    background-image: url(./assets/images/bg_article1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     width: 70%;
 }
 
@@ -329,8 +351,11 @@ a:hover{
     padding-bottom: 40px;
 }
 
-.education-item {
-    padding-bottom: 20px;
+.education-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .education-year {
@@ -352,11 +377,30 @@ a:hover{
     padding-bottom: 40px;
 }
 
+/* WORK EXAMPLES SECTION */
+.work-examples {
+    padding-bottom: 20px;
+}
+
+.work-examples_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.work-examples_item {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-title {
+    font-size: 24px;
+    padding-top: 10px;
+}
 
 
-
-
-
-
-
+.item-image img {
+    max-width: 100%;
+}
 
