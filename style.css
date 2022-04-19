@@ -60,6 +60,7 @@ a:hover{
 .photo {
     width: 70%;
     border-radius: 50%;
+    box-shadow: 0 0 12px 1px rgba(243, 243, 247, 0.96);;
 }
 
 .wrapper {
