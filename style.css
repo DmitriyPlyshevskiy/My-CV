@@ -26,6 +26,11 @@ a {
     text-decoration: none;
     cursor: pointer;
     color: #000;
+    transition: color 0.5s;
+}
+
+a:hover{
+    color: #0969da;
 }
 
 
@@ -286,11 +291,12 @@ a {
     justify-content: space-around;
 }
 
-.menu-items a {
+.menu-item {
     font-size: 18px;
     font-weight: 400;
     color: #000;
 }
+
 
 /* NAME SECTION */
 .name {
@@ -339,15 +345,6 @@ a {
 
 .education-description {
     padding-top: 5px;
-}
-
-.education-description a {
-    color: #000;
-}
-
-.certificate {
-    display: inline-block;
-    color: #0969da;
 }
 
 /* EXPERIENCE SECTION */
